@@ -76,7 +76,7 @@ void dostuff (int sock)
    char buffer[256];
       
    bzero(buffer,256);
-   n = read(sock,buffer,255);
+   n = read(sock,buffer,255); // 255 最大字节数
    if (n < 0) error("ERROR reading from socket");
    printf("Here is the message: %s\n",buffer);
    n = write(sock,"I got your message",18);

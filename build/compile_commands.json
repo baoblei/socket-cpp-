@@ -13,5 +13,15 @@
   "directory": "/home/blei/learn-socket/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/serv.dir/serv_stream.cpp.o -c /home/blei/learn-socket/serv_stream.cpp",
   "file": "/home/blei/learn-socket/serv_stream.cpp"
+},
+{
+  "directory": "/home/blei/learn-socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/serv_udp.dir/serv_dgram.cpp.o -c /home/blei/learn-socket/serv_dgram.cpp",
+  "file": "/home/blei/learn-socket/serv_dgram.cpp"
+},
+{
+  "directory": "/home/blei/learn-socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/cli_udp.dir/cli_dgram.cpp.o -c /home/blei/learn-socket/cli_dgram.cpp",
+  "file": "/home/blei/learn-socket/cli_dgram.cpp"
 }
 ]

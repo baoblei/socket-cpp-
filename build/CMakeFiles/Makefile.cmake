@@ -84,4 +84,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/stream.dir/DependInfo.cmake"
   "CMakeFiles/client.dir/DependInfo.cmake"
   "CMakeFiles/serv.dir/DependInfo.cmake"
+  "CMakeFiles/serv_udp.dir/DependInfo.cmake"
+  "CMakeFiles/cli_udp.dir/DependInfo.cmake"
   )

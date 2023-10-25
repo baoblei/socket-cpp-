@@ -45,7 +45,9 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32
 					]
 				}
 			],
@@ -90,7 +92,9 @@
 						27,
 						28,
 						29,
-						30
+						30,
+						31,
+						32
 					]
 				}
 			],
@@ -294,6 +298,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "cli_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cli_udp-Debug-d2ed039d667a3fb29844.json",
+					"name" : "cli_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "client::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-client-Debug-352445fa6c0daf6e943b.json",
 					"name" : "client",
@@ -304,6 +315,13 @@
 					"id" : "serv::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-serv-Debug-ce97f965f0123ddba9a5.json",
 					"name" : "serv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serv_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serv_udp-Debug-1657574d474d8655582b.json",
+					"name" : "serv_udp",
 					"projectIndex" : 0
 				},
 				{

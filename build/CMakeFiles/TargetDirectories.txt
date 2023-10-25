@@ -29,6 +29,8 @@
 /home/blei/learn-socket/build/CMakeFiles/stream.dir
 /home/blei/learn-socket/build/CMakeFiles/client.dir
 /home/blei/learn-socket/build/CMakeFiles/serv.dir
+/home/blei/learn-socket/build/CMakeFiles/serv_udp.dir
+/home/blei/learn-socket/build/CMakeFiles/cli_udp.dir
 /home/blei/learn-socket/build/CMakeFiles/package.dir
 /home/blei/learn-socket/build/CMakeFiles/package_source.dir
 /home/blei/learn-socket/build/CMakeFiles/test.dir

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/cli_udp.dir/cli_dgram.cpp.o -o cli_udp 

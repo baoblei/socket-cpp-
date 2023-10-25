@@ -66,6 +66,8 @@ CMAKE_BINARY_DIR = /home/blei/learn-socket/build
 all: CMakeFiles/stream.dir/all
 all: CMakeFiles/client.dir/all
 all: CMakeFiles/serv.dir/all
+all: CMakeFiles/serv_udp.dir/all
+all: CMakeFiles/cli_udp.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -104,6 +106,8 @@ clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/stream.dir/clean
 clean: CMakeFiles/client.dir/clean
 clean: CMakeFiles/serv.dir/clean
+clean: CMakeFiles/serv_udp.dir/clean
+clean: CMakeFiles/cli_udp.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -841,7 +845,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/stream.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stream.dir/build.make CMakeFiles/stream.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stream.dir/build.make CMakeFiles/stream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=5,6 "Built target stream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=9,10 "Built target stream"
 .PHONY : CMakeFiles/stream.dir/all
 
 # Build rule for subdir invocation for target.
@@ -867,7 +871,7 @@ CMakeFiles/stream.dir/clean:
 CMakeFiles/client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=1,2 "Built target client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=3,4 "Built target client"
 .PHONY : CMakeFiles/client.dir/all
 
 # Build rule for subdir invocation for target.
@@ -893,7 +897,7 @@ CMakeFiles/client.dir/clean:
 CMakeFiles/serv.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv.dir/build.make CMakeFiles/serv.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv.dir/build.make CMakeFiles/serv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=3,4 "Built target serv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=5,6 "Built target serv"
 .PHONY : CMakeFiles/serv.dir/all
 
 # Build rule for subdir invocation for target.
@@ -911,6 +915,58 @@ serv: CMakeFiles/serv.dir/rule
 CMakeFiles/serv.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv.dir/build.make CMakeFiles/serv.dir/clean
 .PHONY : CMakeFiles/serv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/serv_udp.dir
+
+# All Build rule for target.
+CMakeFiles/serv_udp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=7,8 "Built target serv_udp"
+.PHONY : CMakeFiles/serv_udp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/serv_udp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blei/learn-socket/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/serv_udp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blei/learn-socket/build/CMakeFiles 0
+.PHONY : CMakeFiles/serv_udp.dir/rule
+
+# Convenience name for target.
+serv_udp: CMakeFiles/serv_udp.dir/rule
+.PHONY : serv_udp
+
+# clean rule for target.
+CMakeFiles/serv_udp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/clean
+.PHONY : CMakeFiles/serv_udp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cli_udp.dir
+
+# All Build rule for target.
+CMakeFiles/cli_udp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/blei/learn-socket/build/CMakeFiles --progress-num=1,2 "Built target cli_udp"
+.PHONY : CMakeFiles/cli_udp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cli_udp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blei/learn-socket/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cli_udp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/blei/learn-socket/build/CMakeFiles 0
+.PHONY : CMakeFiles/cli_udp.dir/rule
+
+# Convenience name for target.
+cli_udp: CMakeFiles/cli_udp.dir/rule
+.PHONY : cli_udp
+
+# clean rule for target.
+CMakeFiles/cli_udp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/clean
+.PHONY : CMakeFiles/cli_udp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

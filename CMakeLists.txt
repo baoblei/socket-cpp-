@@ -7,6 +7,11 @@ enable_testing()
 add_executable(stream main.cpp)
 add_executable(client client_stream.cpp)
 add_executable(serv serv_stream.cpp)
+add_executable(serv_udp serv_dgram.cpp)
+add_executable(cli_udp cli_dgram.cpp)
+
+
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

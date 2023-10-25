@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/serv_udp.dir/serv_dgram.cpp.o -o serv_udp 

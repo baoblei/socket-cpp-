@@ -549,6 +549,56 @@ serv/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv.dir/build.make CMakeFiles/serv.dir/build
 .PHONY : serv/fast
 
+#=============================================================================
+# Target rules for targets named serv_udp
+
+# Build rule for target.
+serv_udp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serv_udp
+.PHONY : serv_udp
+
+# fast build rule for target.
+serv_udp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/build
+.PHONY : serv_udp/fast
+
+#=============================================================================
+# Target rules for targets named cli_udp
+
+# Build rule for target.
+cli_udp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cli_udp
+.PHONY : cli_udp
+
+# fast build rule for target.
+cli_udp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/build
+.PHONY : cli_udp/fast
+
+cli_dgram.o: cli_dgram.cpp.o
+.PHONY : cli_dgram.o
+
+# target to build an object file
+cli_dgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/cli_dgram.cpp.o
+.PHONY : cli_dgram.cpp.o
+
+cli_dgram.i: cli_dgram.cpp.i
+.PHONY : cli_dgram.i
+
+# target to preprocess a source file
+cli_dgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/cli_dgram.cpp.i
+.PHONY : cli_dgram.cpp.i
+
+cli_dgram.s: cli_dgram.cpp.s
+.PHONY : cli_dgram.s
+
+# target to generate assembly for a file
+cli_dgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli_udp.dir/build.make CMakeFiles/cli_udp.dir/cli_dgram.cpp.s
+.PHONY : cli_dgram.cpp.s
+
 client_stream.o: client_stream.cpp.o
 .PHONY : client_stream.o
 
@@ -596,6 +646,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stream.dir/build.make CMakeFiles/stream.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+serv_dgram.o: serv_dgram.cpp.o
+.PHONY : serv_dgram.o
+
+# target to build an object file
+serv_dgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/serv_dgram.cpp.o
+.PHONY : serv_dgram.cpp.o
+
+serv_dgram.i: serv_dgram.cpp.i
+.PHONY : serv_dgram.i
+
+# target to preprocess a source file
+serv_dgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/serv_dgram.cpp.i
+.PHONY : serv_dgram.cpp.i
+
+serv_dgram.s: serv_dgram.cpp.s
+.PHONY : serv_dgram.s
+
+# target to generate assembly for a file
+serv_dgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serv_udp.dir/build.make CMakeFiles/serv_udp.dir/serv_dgram.cpp.s
+.PHONY : serv_dgram.cpp.s
 
 serv_stream.o: serv_stream.cpp.o
 .PHONY : serv_stream.o
@@ -660,15 +734,23 @@ help:
 	@echo "... NightlySubmit"
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
+	@echo "... cli_udp"
 	@echo "... client"
 	@echo "... serv"
+	@echo "... serv_udp"
 	@echo "... stream"
+	@echo "... cli_dgram.o"
+	@echo "... cli_dgram.i"
+	@echo "... cli_dgram.s"
 	@echo "... client_stream.o"
 	@echo "... client_stream.i"
 	@echo "... client_stream.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... serv_dgram.o"
+	@echo "... serv_dgram.i"
+	@echo "... serv_dgram.s"
 	@echo "... serv_stream.o"
 	@echo "... serv_stream.i"
 	@echo "... serv_stream.s"
