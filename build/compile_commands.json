@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/blei/learn-socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/stream.dir/main.cpp.o -c /home/blei/learn-socket/main.cpp",
+  "file": "/home/blei/learn-socket/main.cpp"
+},
+{
+  "directory": "/home/blei/learn-socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/client.dir/client_stream.cpp.o -c /home/blei/learn-socket/client_stream.cpp",
+  "file": "/home/blei/learn-socket/client_stream.cpp"
+},
+{
+  "directory": "/home/blei/learn-socket/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/serv.dir/serv_stream.cpp.o -c /home/blei/learn-socket/serv_stream.cpp",
+  "file": "/home/blei/learn-socket/serv_stream.cpp"
+}
+]

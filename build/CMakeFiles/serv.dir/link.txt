@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/serv.dir/serv_stream.cpp.o -o serv 
